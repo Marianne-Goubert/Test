@@ -1,26 +1,72 @@
 body{
-    background-color: rgb(234, 235, 235);
-    margin: 0;
+    background-color: burlywood;
+    font-family: Roboto Condensed ;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
+.introduction{
+    background-color: cornsilk;
+    padding: 32px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    border-radius: 20px; 
+    margin-top: 40px;   
 }
-.logo {
-    width: 180px;
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
-.link {
-    text-decoration: none;
-    font-size: 24px;
-    background-color: #412dd7;
+.btn{
+    padding: 8px 24px;
+    background-color: burlywood;
     color: black;
-    padding: 16px 32px;
-    border-radius: 10px
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 30px;
 }
-.links {
-    display: flex;
-    gap: 24px;
+.presentation{
+    background-color:aquamarine;
+    padding: 32px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    border-radius: 20px; 
+    margin-top: 40px;  
+}
+.video{
+    background-color: cornsilk;
+    padding: 32px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    border-radius: 20px; 
+    margin-top: 40px;  
+}
+.ingredients{
+    background-color: cornsilk;
+    padding: 32px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    border-radius: 20px; 
+    margin-top: 40px;  
+}
+.preparation{
+    background-color: cornsilk;
+    padding: 32px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    border-radius: 20px; 
+    margin-top: 40px;  
+}
+.images{
+    background-color: cornsilk;
+    padding: 32px;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: left;
+    border-radius: 20px; 
+    margin-top: 40px;  
 }
