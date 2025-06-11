@@ -35,8 +35,8 @@ img{
 
 .menu{
     align-items: center;
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
     gap: 20px;
     align-items: center;
 }
@@ -52,7 +52,7 @@ h1{
   justify-content: left;
   text-align: left;
   padding: 0 300px;
-      gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 .projetmarta{
@@ -63,7 +63,7 @@ h1{
     justify-content: space-around;
     text-align: left;
     padding: 0 300px;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 .projetcircle{
@@ -74,7 +74,7 @@ h1{
     justify-content: space-around;
     text-align: left;
     padding: 0 300px;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 .projettouzery{
@@ -85,7 +85,7 @@ h1{
     justify-content: space-around;
     text-align: left;
     padding: 0 300px;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
 }
 .mail{
