@@ -1,72 +1,77 @@
 body{
-    background-color: burlywood;
-    font-family: Roboto Condensed ;
-}
-.introduction{
-    background-color: cornsilk;
-    padding: 32px;
-    margin: 0 auto;
-    width: 800px;
-    text-align: left;
-    border-radius: 20px; 
-    margin-top: 40px;   
+background-color: burlywood;
+font-family:Montserrat ;
+padding-left: 10px;
 }
 img{
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 50px;
+}
+.petite-image{
+    width: 65px;
+    height: 65px;
     object-fit: cover;
     object-position: center;
 }
-.btn{
-    padding: 8px 24px;
-    background-color: burlywood;
-    color: black;
-    border-radius: 4px;
-    display: inline-block;
+.navbar{
+    font-family:manrope;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    padding-left: 10px;
     margin-top: 30px;
+    width: 1175px;
 }
-.presentation{
-    background-color:aquamarine;
-    padding: 32px;
-    margin: 0 auto;
+.menu a{ 
+    color: black;
+    text-decoration: none;
+    align-items: center;
+}
+h1{
     width: 800px;
-    text-align: left;
-    border-radius: 20px; 
-    margin-top: 40px;  
+    font-size: 300%;
 }
-.video{
-    background-color: cornsilk;
-    padding: 32px;
-    margin: 0 auto;
-    width: 800px;
-    text-align: left;
-    border-radius: 20px; 
-    margin-top: 40px;  
+.projetartem{
+    margin-top: 70px;
 }
-.ingredients{
-    background-color: cornsilk;
-    padding: 32px;
-    margin: 0 auto;
-    width: 800px;
-    text-align: left;
-    border-radius: 20px; 
-    margin-top: 40px;  
+.projetartem1{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  padding: 0 300px;
 }
-.preparation{
-    background-color: cornsilk;
-    padding: 32px;
-    margin: 0 auto;
-    width: 800px;
-    text-align: left;
-    border-radius: 20px; 
-    margin-top: 40px;  
+.projetmarta{
+    margin-top: 80px;
 }
-.images{
-    background-color: cornsilk;
-    padding: 32px;
-    margin: 0 auto;
-    width: 1000px;
+.projetmarta1{
+    display: flex;
+    justify-content: space-around;
     text-align: left;
-    border-radius: 20px; 
-    margin-top: 40px;  
+    padding: 0 300px;
+}
+.projetcircle{
+    margin-top: 80px;
+}
+.projetcircle1{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 0 300px;
+}
+.projettouzery{
+    margin-top: 80px;
+}
+.projettouzery1{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 0 300px;
+}
+.mail{
+    text-decoration: underline;
+    margin-top: 90px;
 }
